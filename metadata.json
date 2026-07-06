@@ -1,0 +1,6 @@
+{
+  "name": "Atelier - Interior Design Studio",
+  "description": "Premium interior design portfolio and studio web UI featuring interactive parallax scrolling, design blueprints, live room style visualizer, dynamic budget calculator, and customized moodboard builder.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

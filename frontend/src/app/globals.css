@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-atelier-charcoal: #121212;
+  --color-atelier-alabaster: #FBFBFA;
+  --color-atelier-sand: #F4EFEA;
+  --color-atelier-sienna: #AF8560;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply bg-atelier-alabaster text-atelier-charcoal antialiased font-sans;
+  }
+}
