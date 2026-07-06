@@ -20,19 +20,7 @@ export default function Footer() {
           {/* Brand/Logo Block (Col span 4) */}
           <div className="lg:col-span-4">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-8 h-8 flex items-center justify-center border border-atelier-sienna bg-white/5">
-                <span className="font-display font-bold text-xs tracking-widest text-atelier-sienna">
-                  A
-                </span>
-              </div>
-              <div>
-                <span className="font-display font-bold text-base tracking-[0.3em] uppercase block">
-                  Atelier
-                </span>
-                <span className="text-[8px] tracking-[0.4em] uppercase text-atelier-sienna block -mt-1">
-                  Interior
-                </span>
-              </div>
+              <img src="/logo.png" alt="Nuvora Logo" className="h-10 w-auto" />
             </div>
             
             <p className="font-sans text-xs text-white/50 leading-relaxed font-light max-w-sm mb-6">

@@ -64,16 +64,7 @@ export default function Navbar({ onOpenDesignSpecs, activeSection }: NavbarProps
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="flex items-center space-x-2.5 cursor-pointer group"
           >
-            <div className="w-8 h-8 bg-atelier-sienna flex items-center justify-center transition-transform duration-500 group-hover:rotate-12">
-              <span className="text-white font-bold text-sm tracking-widest font-sans">
-                F
-              </span>
-            </div>
-            <div>
-              <span className="font-sans font-extrabold text-xl tracking-tight text-atelier-charcoal">
-                Furni<span className="text-atelier-sienna">Sphere</span>
-              </span>
-            </div>
+            <img src="/logo.png" alt="Nuvora Logo" className="h-10 w-auto" />
           </div>
 
           {/* Desktop Navigation */}
