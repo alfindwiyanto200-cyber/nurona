@@ -1,6 +1,3 @@
 [build]
   base = "frontend"
   command = "CI=false npm run build"
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
